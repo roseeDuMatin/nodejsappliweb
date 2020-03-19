@@ -2,6 +2,8 @@
 
 Ce dépot contient un serveur web / API en Node.js.
 
+Ce serveur propose un formulaire pour afficher un nom de ville en POST.
+
 ## Installation et execution
 ```
 $ git clone https://github.com/roseeDuMatin/nodejsappliweb
