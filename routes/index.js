@@ -17,9 +17,12 @@ router.post('/ville', async function(req, res, next){
     console.log(error);
   };
   if(response.data.error == null){
-    const lng = response.data.longt;
-    const lat = response.data.latt;
-    res.render('ville', { ville: ville, lng: lng, lat : lat, visibility : 'visible'});
+    const latlng = response.data.latt + ',' + response.data.longt;
+    // const lng = response.data.longt;
+    // const lat = response.data.latt;
+    // res.render('ville', { ville: ville, lng: lng, lat : lat, visibility : 'visible'});
+    res.render('ville', { ville: ville, latlng : latlng, visibility : 'visible'});
+
   }else{
     res.render('ville', { ville: "Désolé, cette ville est inconnue :(", visibility : 'hidden' });
   }

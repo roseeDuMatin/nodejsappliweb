@@ -1,8 +1,43 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('map2.jpg');
+  background-repeat: no-repeat;
+  background-size : cover;
+  background-attachment: fixed; 
+  /* color: white; */
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+input {
+  
+  padding: 1em;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: none;
+  border-color: black;
+  border: 1px solid;
+}
+
+
+input[type="text"]{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input[type="submit"]{
+  border-radius: 0.5em;
+}
+
+div{
+  padding: 0.5em;
 }
