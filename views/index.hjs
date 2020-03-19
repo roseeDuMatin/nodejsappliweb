@@ -9,8 +9,8 @@
     <p>Welcome to {{ title }}</p>
     <form action="/ville" method="post" class="">
       <div class = "">
-        <label for="nom_ville">Ville :</label>
-        <input type="text" name="ville" id="nom_ville" required>
+        <label for="nom_ville">Ville</label>
+        <input type="text" name="ville" id="nom_ville" placeholder="Saisissez votre ville" required>
       </div>
       <div class ="">
         <input type="submit" value="Envoyer!">

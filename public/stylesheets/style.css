@@ -1,14 +1,21 @@
+html{
+  height:90%;
+  box-sizing: border-box;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('map2.jpg');
   background-repeat: no-repeat;
   background-size : cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  color: rgb(60, 49, 66); 
   /* color: white; */
   margin: auto;
   width: 50%;
   text-align: center;
+  height:90%;
 }
 
 a {
@@ -18,12 +25,13 @@ a {
 input {
   
   padding: 1em;
-  width: 100%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
-  box-sizing: border-box;
+
   background: none;
-  border-color: black;
+  border-color: rgb(60, 49, 66); 
+  color : rgb(60, 49, 66); 
   border: 1px solid;
 }
 
@@ -40,4 +48,10 @@ input[type="submit"]{
 
 div{
   padding: 0.5em;
+  height:90%;
+}
+
+iframe{
+  height:90%;
+  border:0;
 }
